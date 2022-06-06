@@ -1,0 +1,207 @@
+/** @format */
+
+body {
+  background-color: #a19bb9;
+}
+/* navbar */
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  color: #e4e3e9 !important;
+}
+
+.nav-link {
+  color: #e4e3e9 !important;
+}
+
+.navbar {
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+.btn {
+  background-color: #2f2a41;
+}
+
+a .btn {
+  color: #e4e3e9;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-image: url(jumbotron.jpg);
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+  position: relative;
+}
+
+.jumbotron .display-4 {
+  color: #2f2a41;
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+  margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+/* info panel */
+
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  background-color: #a19bb9;
+  margin-top: -100px;
+  padding: 20px;
+}
+
+.float-left {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.info-panel h4 {
+  font-size: 16px;
+  color: #e4e3e9;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.info-panel p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+/* working space */
+.workingspace {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.workingspace img {
+  width: 400px;
+  height: 300px;
+  border-radius: 12px;
+  margin: 0;
+}
+
+.workingspace h3 {
+  color: #e4e3e9;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.workingspace h3 span {
+  font-weight: 500;
+}
+
+.workingspace p {
+  margin-bottom: 30px;
+}
+
+/* favorites */
+.favorite {
+  margin-top: 100px;
+  color: #e4e3e9;
+  margin-bottom: 40px;
+}
+
+.card {
+  border: 3px solid #2f2a41;
+}
+.cards img {
+  height: 300px;
+}
+
+svg {
+  cursor: pointer;
+}
+
+/* pre order */
+.pre-order h3 {
+  color: #e4e3e9;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.pre-order {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 200px;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  background-color: #2f2a41;
+  padding: 10px;
+  text-align: center;
+  color: #e4e3e9;
+  border-radius: 10px 10px 0 0;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: #e4e3e9;
+}
+
+.footer svg {
+  color: red;
+}
+
+/* utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+  color: #e4e3e9;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+/* dekstop version */
+
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #2f2a41 !important;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+
+    border-bottom: 3px solid #2f2a41;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .navbar-brand {
+    color: #2f2a41 !important;
+    text-shadow: 1px 1px 1px rgba(223, 213, 213, 0.7);
+  }
+
+  .jumbotron {
+    margin-top: -90px;
+    height: 640px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 64px;
+  }
+
+  .workingspace {
+    text-align: left;
+  }
+}
